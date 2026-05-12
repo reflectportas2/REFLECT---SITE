@@ -1,4 +1,5 @@
 "use client";
+import Script from "next/script";
 import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, CheckCircle, MessageCircle, Ruler, ShieldCheck, Sparkles, Star, Phone } from "lucide-react";
@@ -7,6 +8,25 @@ const WHATSAPP_URL = "https://wa.me/5584987458798?text=Ol%C3%A1%2C%20vim%20pela%
 
 export default function ReflectLandingPage() {
   return (
+    <>
+  <Script
+    id="facebook-pixel"
+    strategy="afterInteractive"
+  >
+    {`
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+
+      fbq('init', '1292324585795953');
+      fbq('track', 'PageView');
+    `}
+  </Script>
     <main className="min-h-screen bg-[#F5EFE6] text-[#2D261F]">
       <section className="relative overflow-hidden px-6 py-6 md:px-12 lg:px-20">
         <nav className="mx-auto flex max-w-7xl items-center justify-between">
@@ -140,5 +160,6 @@ export default function ReflectLandingPage() {
         <MessageCircle size={22} /> WhatsApp
       </a>
     </main>
-  );
+</>
+);
 }
