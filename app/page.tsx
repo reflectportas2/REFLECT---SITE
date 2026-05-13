@@ -27,6 +27,20 @@ export default function ReflectLandingPage() {
       fbq('track', 'PageView');
     `}
   </Script>
+  <Script
+  src="https://www.googletagmanager.com/gtag/js?id=G-NS53PD6KYW"
+  strategy="afterInteractive"
+/>
+
+<Script id="google-analytics" strategy="afterInteractive">
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-NS53PD6KYW');
+  `}
+</Script>
     <main className="min-h-screen bg-[#F5EFE6] text-[#2D261F]">
       <section className="relative overflow-hidden px-6 py-6 md:px-12 lg:px-20">
         <nav className="mx-auto flex max-w-7xl items-center justify-between">
