@@ -3,7 +3,12 @@ import Script from "next/script";
 import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, CheckCircle, MessageCircle, Ruler, ShieldCheck, Sparkles, Star, Phone } from "lucide-react";
-
+declare global {
+  interface Window {
+    gtag?: (...args: any[]) => void;
+    fbq?: (...args: any[]) => void;
+  }
+}
 const WHATSAPP_URL = "https://wa.me/5584987458798?text=Ol%C3%A1%2C%20vim%20pela%20landing%20page%20da%20REFLECT%20M%C3%93VEIS%20PLANEJADOS%20E%20PORTAS%20ESPECIAIS%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento.";
 
 export default function ReflectLandingPage() {
@@ -170,7 +175,18 @@ export default function ReflectLandingPage() {
         <p className="mt-2">Atendimento via WhatsApp · Natal/RN e região</p>
       </footer>
 
-      <a href={WHATSAPP_URL} target="_blank" rel="noreferrer" className="fixed bottom-5 right-5 z-50 flex items-center gap-2 rounded-full bg-[#25D366] px-5 py-4 font-semibold text-white shadow-2xl">
+      <a
+  href={WHATSAPP_URL}
+  target="_blank"
+  rel="noreferrer"
+  onClick={() => {
+  window.gtag?.("event", "click_whatsapp", {
+    event_category: "Contato",
+    event_label: "WhatsApp Floating",
+  });
+
+  window.fbq?.("track", "Contact");
+}} className="fixed bottom-5 right-5 z-50 flex items-center gap-2 rounded-full bg-[#25D366] px-5 py-4 font-semibold text-white shadow-2xl">
         <MessageCircle size={22} /> WhatsApp
       </a>
     </main>
