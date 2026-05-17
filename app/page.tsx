@@ -86,7 +86,7 @@ export default function ReflectLandingPage() {
             </div>
           </motion.div>
 
-          <motion.div
+         <motion.div
   initial={{ opacity: 0, scale: 0.96 }}
   animate={{ opacity: 1, scale: 1 }}
   transition={{ duration: 0.8, delay: 0.2 }}
@@ -95,7 +95,7 @@ export default function ReflectLandingPage() {
   <img
     src="/images/cozinhas/cozinha-1.jpg"
     alt="Cozinha planejada Reflect"
-    className="h-full w-full rounded-[2rem] object-cover shadow-2xl"
+    className="absolute inset-0 h-full w-full rounded-[2rem] object-cover shadow-2xl"
   />
 </motion.div>
         </div>
