@@ -93,7 +93,7 @@ export default function ReflectLandingPage() {
   className="relative aspect-[4/5] min-h-[520px]"
 >
   <img
-    src="/images/cozinhas/cozinha-1.jpg"
+    src="/images/cozinhas/Cozinha-1.jpg"
     alt="Cozinha planejada Reflect"
     className="absolute inset-0 h-full w-full rounded-[2rem] object-cover shadow-2xl"
   />
