@@ -55,7 +55,7 @@ export default function ReflectLandingPage() {
           </a>
         </nav>
 
-        <div className="mx-auto grid max-w-7xl items-center gap-12 py-20 lg:grid-cols-2 lg:py-28">
+        <div className="mx-auto grid max-w-7xl items-center gap-12 py-20 md:grid-cols-2 lg:py-28">>
           <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }} className="space-y-8">
             <div className="inline-flex items-center gap-2 rounded-full bg-white/70 px-4 py-2 text-sm text-[#6B4F3B] shadow-sm">
               <Sparkles size={16} /> Móveis planejados e portas especiais sob medida
@@ -86,22 +86,18 @@ export default function ReflectLandingPage() {
             </div>
           </motion.div>
 
-          <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8 }} className="relative">
-            <div className="aspect-[4/5] rounded-[2rem] bg-gradient-to-br from-[#D9C7B3] via-[#B99C7C] to-[#6B4F3B] p-4 shadow-2xl">
-              <div className="h-full rounded-[1.5rem] bg-[linear-gradient(135deg,rgba(255,255,255,.18),rgba(255,255,255,.04))] p-6 backdrop-blur">
-                <div className="flex h-full flex-col justify-end rounded-[1.25rem] border border-white/20 p-6 text-white">
-                  <p className="mb-3 text-sm uppercase tracking-[0.3em] text-white/80">Design · Madeira · Sofisticação</p>
-                  <h2 className="text-3xl font-semibold">Ambientes mais elegantes começam nos detalhes.</h2>
-                </div>
-              </div>
-            </div>
-            <div className="absolute -bottom-6 left-6 right-6 rounded-3xl border-0 bg-white/90 p-5 shadow-xl backdrop-blur">
-              <div className="flex items-center gap-4">
-                <div className="rounded-full bg-[#EFE4D6] p-3"><Star className="text-[#6B4F3B]" size={22} /></div>
-                <div><p className="font-semibold">Ideal para projetos premium</p><p className="text-sm text-[#6B6258]">Arquitetos, construtoras e clientes finais.</p></div>
-              </div>
-            </div>
-          </motion.div>
+          <motion.div
+  initial={{ opacity: 0, scale: 0.96 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 0.8, delay: 0.2 }}
+  className="relative aspect-[4/5] min-h-[520px]"
+>
+  <img
+    src="/images/cozinhas/cozinha-1.jpg"
+    alt="Cozinha planejada Reflect"
+    className="h-full w-full rounded-[2rem] object-cover shadow-2xl"
+  />
+</motion.div>
         </div>
       </section>
 
