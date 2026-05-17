@@ -108,7 +108,51 @@ export default function ReflectLandingPage() {
             <h2 className="text-3xl font-semibold md:text-5xl">Planejados e portas não são só acabamento. São presença.</h2>
             <p className="text-lg leading-8 text-[#6B6258]">Criamos soluções que unem estética, funcionalidade e acabamento para valorizar cada ambiente.</p>
           </div>
+<div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
 
+  <div className="overflow-hidden rounded-[2rem] bg-white shadow-lg">
+    <img
+      src="/images/cozinhas/Cozinha-1.jpg"
+      alt="Cozinha planejada"
+      className="h-[320px] w-full object-cover"
+    />
+    <div className="p-5">
+      <h3 className="text-xl font-semibold">Cozinhas planejadas</h3>
+      <p className="mt-2 text-[#6B6258]">
+        Funcionalidade, sofisticação e acabamento premium.
+      </p>
+    </div>
+  </div>
+
+  <div className="overflow-hidden rounded-[2rem] bg-white shadow-lg">
+    <img
+      src="/images/closets/Closet.jpg"
+      alt="Closet planejado"
+      className="h-[320px] w-full object-cover"
+    />
+    <div className="p-5">
+      <h3 className="text-xl font-semibold">Closets exclusivos</h3>
+      <p className="mt-2 text-[#6B6258]">
+        Organização inteligente com design sofisticado.
+      </p>
+    </div>
+  </div>
+
+  <div className="overflow-hidden rounded-[2rem] bg-white shadow-lg">
+    <img
+      src="/images/portas/Porta divisoria.jpg"
+      alt="Porta especial"
+      className="h-[320px] w-full object-cover"
+    />
+    <div className="p-5">
+      <h3 className="text-xl font-semibold">Portas especiais</h3>
+      <p className="mt-2 text-[#6B6258]">
+        Elegância e personalidade para cada ambiente.
+      </p>
+    </div>
+  </div>
+
+</div>
           <div className="grid gap-5 md:grid-cols-3">
             {[
               { icon: Ruler, title: "Projeto sob medida", text: "Dimensões, acabamento e detalhes pensados para o seu espaço." },
