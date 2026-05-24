@@ -47,8 +47,8 @@ export default function ReflectLandingPage() {
   `}
       </Script>
         <section className="relative overflow-hidden px-6 py-6 md:px-12 lg:px-20">
-          <nav className="mx-auto flex max-w-7xl items-center justify-between">
-            <div className="text-sm md:text-xl font-semibold tracking-wide">
+          <nav className="mx-auto grid max-w-7xl grid-cols-3 items-center">
+            <div className="flex justify-center">
               <img
   src="/images/logo/logo-reflect.png"
   alt="Reflect Ambientes Planejados"
