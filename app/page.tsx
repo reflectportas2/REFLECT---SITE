@@ -61,9 +61,9 @@ export default function ReflectLandingPage() {
     href="https://instagram.com/reflectmoveis"
     target="_blank"
     rel="noreferrer"
-    className="flex h-12 w-12 items-center justify-center rounded-full border border-[#6B4F3B]/20 bg-white/70 text-[#6B4F3B] transition hover:scale-105 hover:bg-white"
+    className="flex items-center justify-center rounded-full border border-[#6B4F3B]/20 bg-white/70 px-5 py-3 text-[#6B4F3B] transition hover:scale-105 hover:bg-white"
   >
-    <Camera size={20} />
+    <span className="text-sm font-medium">Instagram</span>
   </a>
 </div>
            <div className="flex justify-end">
