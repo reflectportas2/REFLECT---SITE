@@ -88,7 +88,7 @@ export default function ReflectLandingPage() {
               initial={{ opacity: 0, scale: 0.96 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="relative aspect-[4/5] min-h-[680px]"
+              className="relative aspect-[4/5] min-h-[420px] md:min-h-[680px]"
             >
               <img
                 src="/images/cozinhas/Cozinha-1.jpg"
