@@ -46,13 +46,13 @@ export default function ReflectLandingPage() {
     gtag('config', 'G-NS53PD6KYW');
   `}
       </Script>
-        <section className="relative overflow-hidden px-6 py-6 md:px-12 lg:px-20">
+        <section className="relative overflow-hidden px-6 py-8 md:px-12 lg:px-20">
           <nav className="mx-auto grid max-w-7xl grid-cols-3 items-center">
             <div className="flex justify-center">
               <img
   src="/images/logo/logo-reflect.png"
   alt="Reflect Ambientes Planejados"
-  className="h-20 w-auto max-w-[260px] object-contain md:h-28 md:max-w-[420px]"
+  className="h-24 w-auto max-w-[260px] object-contain md:h-32 md:max-w-[420px]"
 />
 </div>
            <div className="flex justify-end">
@@ -60,7 +60,7 @@ export default function ReflectLandingPage() {
     href={WHATSAPP_URL}
     target="_blank"
     rel="noreferrer"
-    className="rounded-full bg-[#6B4F3B] px-5 py-3 text-white hover:bg-[#5A4131]"
+    className="rounded-full bg-[#6B4F3B] px-7 py-4 text-sm font-medium text-white transition hover:scale-105 hover:bg-[#5A4131]"
   >
     Falar no WhatsApp
   </a>
