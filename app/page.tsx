@@ -61,7 +61,7 @@ export default function ReflectLandingPage() {
               </div>
 
               <div className="space-y-5">
-                <h1 className="max-w-2xl text-4xl font-semibold leading-tight tracking-tight md:text-6xl">
+                <h1 className="max-w-3xl text-5xl font-semibold leading-[1.05] tracking-tight md:text-7xl">
                   Móveis planejados e portas especiais que elevam o padrão do seu projeto.
                 </h1>
                 <p className="max-w-xl text-lg leading-8 text-[#6B6258]">
