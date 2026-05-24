@@ -169,7 +169,61 @@ export default function ReflectLandingPage() {
             ))}
           </div>
         </div>
-      </section>
+        <section className="px-6 py-20 md:px-12 lg:px-20 bg-white">
+  <div className="mx-auto max-w-7xl">
+
+    <div className="mb-12 text-center">
+      <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#8A6A4F]">
+        Projetos reais
+      </p>
+
+      <h2 className="mt-4 text-4xl font-semibold text-[#2D261F]">
+        Ambientes que transformam espaços
+      </h2>
+
+      <p className="mt-4 text-lg text-[#6B6258]">
+        Cada detalhe pensado para unir sofisticação, funcionalidade e personalidade.
+      </p>
+    </div>
+
+    <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+
+      <div className="group overflow-hidden rounded-[2rem]">
+        <img
+          src="/images/cozinhas/Cozinha-1.jpg"
+          alt="Cozinha planejada"
+          className="h-[420px] w-full object-cover transition duration-500 group-hover:scale-105"
+        />
+      </div>
+
+      <div className="group overflow-hidden rounded-[2rem]">
+        <img
+          src="/images/closets/Closet.jpg"
+          alt="Closet planejado"
+          className="h-[420px] w-full object-cover transition duration-500 group-hover:scale-105"
+        />
+      </div>
+
+      <div className="group overflow-hidden rounded-[2rem]">
+        <img
+          src="/images/portas/Porta divisoria.jpg"
+          alt="Porta especial"
+          className="h-[420px] w-full object-cover transition duration-500 group-hover:scale-105"
+        />
+      </div>
+
+      <div className="group overflow-hidden rounded-[2rem]">
+        <img
+          src="/images/salas/SALA.jpeg"
+          alt="Sala planejada"
+          className="h-[420px] w-full object-cover transition duration-500 group-hover:scale-105"
+        />
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
       <section className="bg-[#2D261F] px-6 py-20 text-white md:px-12 lg:px-20">
         <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-2">
