@@ -2,7 +2,7 @@
 import Script from "next/script";
 import React from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, CheckCircle, MessageCircle, Ruler, ShieldCheck, Sparkles, Star, Phone } from "lucide-react";
+import { ArrowRight, CheckCircle, MessageCircle, Camera, Ruler, ShieldCheck, Sparkles, Star, Phone } from "lucide-react";
 declare global {
   interface Window {
 gtag?: (...args: unknown[]) => void;
@@ -54,6 +54,17 @@ export default function ReflectLandingPage() {
   alt="Reflect Ambientes Planejados"
   className="h-24 w-auto max-w-[260px] object-contain md:h-32 md:max-w-[340px]"
 />
+</div>
+
+<div className="flex justify-center">
+  <a
+    href="https://instagram.com/reflectmoveis"
+    target="_blank"
+    rel="noreferrer"
+    className="flex h-12 w-12 items-center justify-center rounded-full border border-[#6B4F3B]/20 bg-white/70 text-[#6B4F3B] transition hover:scale-105 hover:bg-white"
+  >
+    <Camera size={20} />
+  </a>
 </div>
            <div className="flex justify-end">
   <a
