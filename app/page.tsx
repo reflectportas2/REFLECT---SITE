@@ -55,9 +55,16 @@ export default function ReflectLandingPage() {
   className="h-20 w-auto max-w-[260px] object-contain md:h-28 md:max-w-[420px]"
 />
 </div>
-            <a href={WHATSAPP_URL} target="_blank" rel="noreferrer" className="rounded-full bg-[#6B4F3B] px-5 py-3 text-white hover:bg-[#553E2F]">
-              Falar no WhatsApp
-            </a>
+           <div className="flex justify-end">
+  <a
+    href={WHATSAPP_URL}
+    target="_blank"
+    rel="noreferrer"
+    className="rounded-full bg-[#6B4F3B] px-5 py-3 text-white hover:bg-[#5A4131]"
+  >
+    Falar no WhatsApp
+  </a>
+</div>
           </nav>
 
           <div className="mx-auto grid max-w-7xl items-center gap-16 py-16 md:py-24 md:grid-cols-2 lg:py-28">
