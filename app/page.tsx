@@ -286,6 +286,5 @@ export default function ReflectLandingPage() {
   WhatsApp
 </a>
     </main>
-</>
 );
 }
