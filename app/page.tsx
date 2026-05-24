@@ -48,7 +48,13 @@ export default function ReflectLandingPage() {
       </Script>
         <section className="relative overflow-hidden px-6 py-6 md:px-12 lg:px-20">
           <nav className="mx-auto flex max-w-7xl items-center justify-between">
-            <div className="text-sm md:text-xl font-semibold tracking-wide">REFLECT MÓVEIS PLANEJADOS E PORTAS ESPECIAIS</div>
+            <div className="text-sm md:text-xl font-semibold tracking-wide">
+              <img
+  src="/images/logo/logo-reflect.png"
+  alt="Reflect Ambientes Planejados"
+  className="h-10 md:h-14 w-auto"
+/>
+</div>
             <a href={WHATSAPP_URL} target="_blank" rel="noreferrer" className="rounded-full bg-[#6B4F3B] px-5 py-3 text-white hover:bg-[#553E2F]">
               Falar no WhatsApp
             </a>
