@@ -14,7 +14,7 @@ const WHATSAPP_URL = "https://wa.me/5584987458798?text=Ol%C3%A1%2C%20vim%20pela%
 export default function ReflectLandingPage() {
   return (
     <>
-  <Script
+      <Script
     id="facebook-pixel"
     strategy="afterInteractive"
   >
@@ -287,6 +287,6 @@ export default function ReflectLandingPage() {
         WhatsApp
       </a>
     </main>
-  </>
-);
+    </>
+  );
 }
