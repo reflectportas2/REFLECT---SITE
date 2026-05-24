@@ -52,7 +52,7 @@ export default function ReflectLandingPage() {
               <img
   src="/images/logo/logo-reflect.png"
   alt="Reflect Ambientes Planejados"
-  className="h-24 w-auto max-w-[260px] object-contain md:h-32 md:max-w-[420px]"
+  className="h-24 w-auto max-w-[260px] object-contain md:h-32 md:max-w-[340px]"
 />
 </div>
            <div className="flex justify-end">
@@ -67,7 +67,7 @@ export default function ReflectLandingPage() {
 </div>
           </nav>
 
-          <div className="mx-auto grid max-w-7xl items-center gap-16 py-16 md:py-24 md:grid-cols-2 lg:py-28">
+          <div className="mx-auto grid max-w-7xl items-center gap-12 py-16 md:py-24 md:grid-cols-2 lg:py-28">
             <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }} className="space-y-8">
               <div className="inline-flex items-center gap-2 rounded-full bg-white/70 px-4 py-2 text-sm text-[#6B4F3B] shadow-sm">
                 <Sparkles size={16} /> Móveis planejados e portas especiais sob medida
