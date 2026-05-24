@@ -52,7 +52,7 @@ export default function ReflectLandingPage() {
               <img
   src="/images/logo/logo-reflect.png"
   alt="Reflect Ambientes Planejados"
-  className="h-10 md:h-14 w-auto"
+  className="h-16 md:h-24 w-auto object-contain"
 />
 </div>
             <a href={WHATSAPP_URL} target="_blank" rel="noreferrer" className="rounded-full bg-[#6B4F3B] px-5 py-3 text-white hover:bg-[#553E2F]">
