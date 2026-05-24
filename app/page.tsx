@@ -285,7 +285,6 @@ export default function ReflectLandingPage() {
   <MessageCircle size={22} />
   WhatsApp
 </a>
-</main>
 </>
 );
 }
