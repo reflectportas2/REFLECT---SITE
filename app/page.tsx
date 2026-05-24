@@ -77,8 +77,7 @@ export default function ReflectLandingPage() {
                   Ver diferenciais
                 </a>
               </div>
-
-              <div className="grid max-w-xl grid-cols-3 gap-4 pt-4 text-sm text-[#6B6258]">
+<div className="grid max-w-xl grid-cols-3 gap-4 pt-4 text-sm text-[#6B6258]">
                 <div><strong className="block text-2xl text-[#2D261F]">Sob medida</strong>para cada projeto</div>
                 <div><strong className="block text-2xl text-[#2D261F]">Premium</strong>acabamento refinado</div>
                 <div><strong className="block text-2xl text-[#2D261F]">WhatsApp</strong>atendimento rápido</div>
@@ -89,7 +88,7 @@ export default function ReflectLandingPage() {
               initial={{ opacity: 0, scale: 0.96 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="relative aspect-[4/5] min-h-[520px]"
+              className="relative aspect-[4/5] min-h-[680px]"
             >
               <img
                 src="/images/cozinhas/Cozinha-1.jpg"
