@@ -268,23 +268,24 @@ export default function ReflectLandingPage() {
         <p>REFLECT MÓVEIS PLANEJADOS E PORTAS ESPECIAIS · Soluções sob medida</p>
         <p className="mt-2">Atendimento via WhatsApp · Natal/RN e região</p>
       </footer>
-<a
-  href={WHATSAPP_URL}
-  target="_blank"
-  rel="noreferrer"
-  onClick={() => {
-    window.gtag?.("event", "click_whatsapp", {
-      event_category: "Contato",
-      event_label: "WhatsApp Floating",
-    });
 
-    window.fbq?.("track", "Contact");
-  }}
-  className="fixed bottom-5 right-5 z-50 flex items-center gap-2 rounded-full bg-[#25D366] px-6 py-4 text-white shadow-2xl"
->
-  <MessageCircle size={22} />
-  WhatsApp
-</a>
-</>
-);
+      <a
+        href={WHATSAPP_URL}
+        target="_blank"
+        rel="noreferrer"
+        onClick={() => {
+          window.gtag?.("event", "click_whatsapp", {
+            event_category: "Contato",
+            event_label: "WhatsApp Floating",
+          });
+
+          window.fbq?.("track", "Contact");
+        }}
+        className="fixed bottom-5 right-5 z-50 flex items-center gap-2 rounded-full bg-[#25D366] px-6 py-4 text-white shadow-2xl"
+      >
+        <MessageCircle size={22} />
+        WhatsApp
+      </a>
+    </main>
+  );
 }
